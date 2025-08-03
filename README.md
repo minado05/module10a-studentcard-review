@@ -12,5 +12,4 @@ explain the logic behind props, state, and interactivity.
 - How to better document and explain React components
 
 ## Screenshot
-
-(Add a screenshot of the running component with your comments visible in the code editor)
+<img width="1502" height="832" alt="Screenshot 2025-08-02 at 6 21 45 PM" src="https://github.com/user-attachments/assets/aad0a3c6-8cf0-479e-ba9c-30d164551d8b" />
