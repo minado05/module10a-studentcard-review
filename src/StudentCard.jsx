@@ -1,8 +1,10 @@
+//this component displays a bio that when clicked displays extra information
 import React from "react";
 function StudentCard(props) {
   const { name, major, year, bio, imageUrl } = props;
+  //initialize showBio to false and use setShowBio as state setter function to update showBio
   const [showBio, setShowBio] = React.useState(false);
-
+  //flip showBio value by calling state setter function setShowBio
   const toggleBio = () => {
     setShowBio(!showBio);
   };
@@ -49,8 +51,10 @@ function StudentCard(props) {
           color: "white",
         }}
       >
+        {/*ternary operator to alternate text when bio is shown or not shown*/}
         {showBio ? "Hide Bio" : "Show Bio"}
       </button>
+      {/*ternary operator to alternate text when bio is shown or not shown*/}
       {showBio && <p style={{ marginTop: "16px", fontSize: "14px" }}>{bio}</p>}
     </div>
   );
